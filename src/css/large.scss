@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: Roboto;
+}
+header {
+    text-align: center;
+    background-image: linear-gradient(90deg, #1ca800 33.33%, #fff 33.33%, #fff 66.67%, #ff0000 66.67%, #ff0000 100%);
+    
+    // background-color: rgb(193, 215, 235);
+    padding: 20px;
+    margin: -10px -8px 20px -8px;
+}
+footer {
+    text-align: center;
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    margin: 10px -8px -10px -8px;
+}
+input[type=text],input[type=button] {
+    padding: 5px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+}
+input[type=button] {
+    background-color: rgb(177, 219, 183);
+    padding: 5px 10px;
+}
+.dish {
+    background-color:rgb(250, 154, 154);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.dishbtn {
+    background-color:rgb(236, 231, 159);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    border: 1px solid black;
+    margin: 10px 0;
+    list-style-type: none;
+    padding: 10px;
+}
+@media screen and (min-width:1025px) {
+    #main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    main {
+        margin: 20px 10%;
+    }
+    main div {
+        margin: 10px 40px;
+    }
+}
